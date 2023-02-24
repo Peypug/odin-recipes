@@ -1,0 +1,26 @@
+
+* {
+  border: 2px solid red;
+}
+.text,
+img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.background {
+  background-color: rgba(100,0,200,0.3);
+}
+div.center {
+  text-align: center;
+}
+ul {
+  display: inline-block;
+  text-align: left;
+}
+.font {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+}
