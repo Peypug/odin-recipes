@@ -1,9 +1,11 @@
-
 * {
-  border: 2px solid red;
+  font-family: 'Emilys Candy', cursive;
+}
+:root {
+  --transparent: 0.5;
 }
 .text,
-img {
+img.homepage {
   text-align: center;
   display: block;
   margin-left: auto;
@@ -11,12 +13,13 @@ img {
   width: 20%;
 }
 .background {
-  background-color: rgba(100,0,200,0.3);
+  background: linear-gradient(135deg,pink,purple); 
+  height: 100vh;
 }
 div.center {
   text-align: center;
 }
-ul {
+ul.homepage {
   display: inline-block;
   text-align: left;
 }
